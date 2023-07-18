@@ -69,6 +69,89 @@ nav{
     padding-left: 10px;
     padding-right: 10px;
 }
+/* main section 1 styles */
+.section-1-container{
+    display: flex;
+}
+.section-1-info{
+    width: 50%;
+    background-image: url(../images/Group\ 14.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+
+}
+.section-1-info h2{
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 148px;
+}
+
+.section-1-info h1{
+    text-align: center;
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background-image: linear-gradient(to bottom ,#ff0586 , rgb(234, 174, 94));
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.section-1-info-list{
+    list-style: none;
+    text-align: left;
+    margin-left: 312px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.section-1-info-list li{
+    color: #534C64;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 13px;
+}
+.fa-circle-play{
+    color: red;
+    padding-right: 8px;
+}
+.fa-down-long{
+    color:red;
+    padding-right: 10px;
+}
+.fa-user-group{
+    padding-right:5px;
+}
+.section-1-img{
+    width: 50%;
+}
+#s-1-btn-1{
+    color: #FFF;
+font-size: 21px;
+font-weight: 600;
+border-radius: 30px;
+background-color: #FF42A5;
+padding: 16px 30px;
+border: none;
+
+}
+#s-1-btn-2{
+    color: #FFF;
+font-size: 21px;
+font-weight: 600;
+border-radius: 30px;
+background-color:#4EC5F7;
+padding: 16px 30px;
+border: none;
+
+}
+
+
+
+
+
+
 
 /* media query for small devices */
 
@@ -89,6 +172,22 @@ nav{
      padding-right: 50px;
     
     }
+    .section-1-container{
+        flex-direction: column-reverse;
+    }
+    .section-1-img{
+        width: 100%;
+    }
+    .section-1-img img{
+        width: 400px;
+    }
+    .section-1-info{
+        width: 100%;
+    }
+    .section-1-info-list{
+        margin-left: 40px;
+    }
+    
 }
 
 
@@ -107,4 +206,20 @@ nav{
         max-width: 1200px;
         margin: 20px auto 0px;
        }
+       .section-1-container{
+        flex-direction: column-reverse;
+    }
+    .section-1-img{
+        width: 100%;
+    }
+    .section-1-img img{
+        width: auto;
+        padding-left: 100px;
+    }
+    .section-1-info{
+        width: 100%;
+    }
+    .section-1-info-list{
+        margin-left: 290px;
+    }
 }
