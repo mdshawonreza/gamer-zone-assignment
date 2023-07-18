@@ -102,7 +102,7 @@ nav{
 .section-1-info-list{
     list-style: none;
     text-align: left;
-    margin-left: 312px;
+    margin-left: 303px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -204,7 +204,49 @@ font-weight: 700;
 line-height: 45px;
 }
 
+/* main section 3 styles */
+.section-3-container{
+    max-width: 1500px;
+    margin:70px auto;
+}
+.section-3-info{
+    text-align: center;
+}
+.section-3-info h1{
+    font-size: 48px;
+font-weight: 700;
+}
+.s-3{
+    background-image: linear-gradient(to bottom ,#ff0586 , rgb(234, 174, 94));
+color: transparent;
+-webkit-background-clip: text;
+}
+.section-3-info p{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.section-3-img{
+    display: flex;
+    gap: 25px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.card p{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 300px;
+}
+.extra:hover{
+    
 
+
+}
 
 
 
@@ -298,6 +340,20 @@ line-height: 45px;
         width: 80%;
         text-align: right;
     }
+    .section-2-info h1{
+        font-size: 27px;
+    }
+    .section-2-info h2{
+        font-size: 22px;
+    }
+    .section-3-img{
+        gap: 25px;
+        margin-top: 50px
+       
+    }
+    .section-3-info h1{
+        font-size: 27px;
+    }
 
 
 
@@ -355,6 +411,9 @@ line-height: 45px;
     .section-2-info{
         width: 80%;
         text-align: right;
+    }
+    .section-3-img{
+        flex-direction: column;
     }
 
 
