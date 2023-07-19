@@ -243,11 +243,52 @@ color: transparent;
     font-weight: 500;
     max-width: 300px;
 }
-.extra:hover{
+
+.custom-card {
+    position: relative;
+    overflow: hidden;
+    transition: all 200ms ease;
+    transform: none;
+    border-radius: 0.75rem;
     
+  }
+  
+  .custom-card:hover {
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  }
+  .image-container {
+    width: 100%;
+    object-fit: cover;
+  }
+  .overlay-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: opacity 200ms;
+    background-color: rgba(0, 0, 0, 0.75);
+    opacity: 0;
+  }
+  .overley-ip{
+    text-align: center;
+    margin-top: 160px;
+    margin-left: 32px;
+    
+  }
+  #overlay-p{
+    font-size: 28px;
+    color: #FF42A5;
 
-
-}
+  }
+  .fa-circle-play{
+    font-size: 60px;
+    color: #FFF;
+    margin-bottom: 1rem;
+  }
+  .overlay-container:hover {
+    opacity: 1;
+  }
 
 /* main section 4 styles */
  
