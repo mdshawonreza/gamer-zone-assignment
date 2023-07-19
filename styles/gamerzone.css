@@ -315,7 +315,7 @@ font-weight: 700;
     color: #0B0223;
     font-size: 23px;
     font-weight: 600;
-    border: none;
+    border: 2px solid white;
     background-color: white;
 }
 .demo:hover{
