@@ -302,7 +302,7 @@ font-weight: 700;
 }
 .section-5-content{
     max-width: 1600px;
-    margin: 0px auto;
+    margin:0px auto;
 }
 .demo{
     display: flex;
@@ -312,19 +312,21 @@ font-weight: 700;
     padding: 8px 8px;
     border-radius: 60px;
     cursor: pointer;
+    color: #0B0223;
+    font-size: 23px;
+    font-weight: 600;
+    border: none;
+    background-color: white;
 }
 .demo:hover{
     border:2px solid #FF42A5;
+    color: #FF42A5;
+
+    
+
     
 }
-.demo h3:hover{
-    color: #FF42A5;
-}
-.demo h3{
-    color: #0B0223;
-font-size: 23px;
-font-weight: 600;
-}
+
 .section-5-content{
     display: flex;
     flex-wrap: wrap;
@@ -411,6 +413,8 @@ footer{
     text-align: center;
     margin-top: 22px;
 }
+
+    
 
 
 
@@ -563,12 +567,10 @@ footer{
      border-radius: 20px;
      column-gap: 0px;
      row-gap: 0px;
-    }
-    .demo h3{
-        color: #0B0223;
-    font-size: 9px;
+     font-size: 9px;
     font-weight: 600;
-    } 
+    }
+    
     .demo img{
         width: 30px;
     }
