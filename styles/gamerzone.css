@@ -43,6 +43,7 @@ nav{
     font-size: 20px;
     font-weight: 500;
 }
+
 .nav-menu a{
     text-decoration: none;
 }
@@ -281,7 +282,7 @@ color: transparent;
     color: #FF42A5;
 
   }
-  .fa-circle-play{
+  #play-icon{
     font-size: 60px;
     color: #FFF;
     margin-bottom: 1rem;
